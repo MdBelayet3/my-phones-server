@@ -96,12 +96,5 @@
        "price":201.9,
        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, aperiam cum ipsam facere atque voluptatum explicabo nostrum quibusdam amet nisi, quam praesentium minus.",
        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg"
-    },
-    {
-        "id":15,
-       "name":"iPhone XS",
-       "price":199.9,
-       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, aperiam cum ipsam facere atque voluptatum explicabo nostrum quibusdam amet nisi, quam praesentium minus.",
-       "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg"
     }
  ]
