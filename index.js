@@ -1,4 +1,5 @@
 const express = require('express');
+const phones = require('./phones.json');
 const app = express();
 const port = 5000;
 
@@ -7,12 +8,14 @@ app.get('/', (req, res) =>{
 })
 
 app.get('/phones', (req, res) => {
-    res.send("Your phone server");
+    res.send(phones);
 })
 
 app.get('/phones/:id', (req, res) =>{
     const id = Number(req.params.id);
     console.log(`I need data for id :${id}`)
+    const phone = phones.find(phone => phone.id === id) || {};
+    res.send(phone);
 })
 
 app.listen(port, () => {
