@@ -1,4 +1,4 @@
-# It's my phone client site
+# It's my phone server site
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
